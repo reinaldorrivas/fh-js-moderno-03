@@ -28,8 +28,8 @@ console.log({ juan, ana });
 
 // Ejemplo con función:
 const cambiarNombre = (persona) => {
-    persona.nombre = "Tony";
-    return persona;
+  persona.nombre = "Tony";
+  return persona;
 };
 
 const peter = { nombre: "Peter" };
@@ -62,8 +62,8 @@ console.log({ pedro, maria });
 
 // Ejemplo con función que crea una copia
 const cambiarNombreCopia = ({ ...persona }) => {
-    persona.nombre = "Joker";
-    return persona;
+  persona.nombre = "Joker";
+  return persona;
 };
 
 const bruce = { nombre: "Bruce" };
