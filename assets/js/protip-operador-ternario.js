@@ -9,7 +9,7 @@ const amigosArr = [
   "Tony",
   "Dr. Strange",
   amigo ? "Thor" : "Loki",
-  (()=> 'Nick Fury')(),
+  (() => "Nick Fury")(),
   elMayor(10, 15),
 ];
 
