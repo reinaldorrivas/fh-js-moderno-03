@@ -8,7 +8,7 @@ for (let i = 0; i < heroes.length; i++) {
 
 console.log("--- for-in ---");
 
-// Devuelve es la llave del objeto en cada iteración.
+// Devuelve las llaves del objeto en cada iteración.
 
 for (let i in heroes) {
   console.log(i);
@@ -17,7 +17,7 @@ for (let i in heroes) {
 
 console.log("--- for-of ---");
 
-// Devuelve es el valor del objeto en cada iteración.
+// Devuelve los valores del objeto en cada iteración.
 
 for (let heroe of heroes) {
   console.log(heroe);
